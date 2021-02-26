@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
         <Switch>
-          <Route exact path='/countries/:countryCode' render={props => <CountryDetails {...props} countries={countries}/>}/>
+          <Route exact path='/countries/:countryCode' render={props => <CountryDetails {...props} countries={countries} />}/>
         </Switch>
       </div>
     </div>//
