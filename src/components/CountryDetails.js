@@ -13,8 +13,8 @@ class CountryDetails extends Component {
 
     return (
       <div>
-        <h1>{countryObj.name.common}</h1>
-        <table class="table">
+        <h1 className="col-7" >{countryObj.name.common}</h1>
+        <table className="table">
           <thead></thead>
           <tbody>
             <tr>

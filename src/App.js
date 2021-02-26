@@ -11,7 +11,9 @@ import { Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <div  >
+      <Navbar />
+      </div>
       <div className="row">
         <div className="" style={{maxHeight: '90vh', overflow: 'scroll'}}>
           <div className="list-group">

@@ -13,6 +13,10 @@
   }
 }
 
+.bg-primary {
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +30,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-link:hover {
+  color: #36788a;
 }
 
 @keyframes App-logo-spin {

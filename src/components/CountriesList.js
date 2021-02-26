@@ -8,7 +8,9 @@ export default class CountriesList extends Component {
             <div>
                 {this.props.countries.map((country) => {
                 return (
-                <Link key={country.cca3} class="list-group-item list-group-item-action active" to={"/countries/" + country.cca3}>{country.name.common}</Link>
+                <Link key={country.cca3} className="list-group-item list-group-item-action active" to={"/countries/" + country.cca3}
+                >
+                {country.name.common}</Link>
                 )})}
 
             </div>
